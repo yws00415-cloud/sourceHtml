@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex 사용 예제</title>
+    <style>
+        header{
+            height: 80px;
+            text-align: center;
+        }
+        section{
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .div{
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+            height: 100px;
+        }
+        .div a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <header>
+            <h1>김채현의 홈페이지</h1>
+        </header>
+        <section>
+            <div class="div">
+                <h3>티몬 홈페이지</h3>
+                <a href="#">클릭하세요~</a>
+            </div>
+            <div class="div">
+                <h3>티몬 홈페이지</h3>
+                <a href="#">클릭하세요~</a>
+            </div>
+            <div class="div">
+                <h3>티몬 홈페이지</h3>
+                <a href="#">클릭하세요~</a>
+            </div>
+        </section>
+    </div>
+
+    
+</body>
+</html>
